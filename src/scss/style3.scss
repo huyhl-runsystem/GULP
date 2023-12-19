@@ -1,0 +1,249 @@
+$mobile-breakpoint: 760px;
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .home-container {
+    .container-header-menu {
+      width: 320px;
+      .menu-header {
+        display: none;
+      }
+
+      .text-title {
+        width: 320px;
+        margin: 0 auto;
+        h1 {
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+        p {
+          width: 320px;
+          font-size: 16px;
+          margin: 10px auto;
+        }
+        button {
+          width: 160px;
+          height: 30px;
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+        .dots-container {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .our-stats {
+    padding: auto 20px;
+    .container-our-stats {
+      .text-our-stats {
+        width: 320px;
+        margin: 20px auto;
+        h1 {
+          font-size: 24px;
+          margin: 10px;
+        }
+        p {
+          width: 320px;
+          font-size: 16px;
+        }
+      }
+      .container-info {
+        display: none;
+      }
+    }
+  }
+
+  .about-us {
+    .container-about-us {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      .text-about-us {
+        width: 320px;
+        margin: 10px auto;
+
+        h1 {
+          font-size: 24px;
+          margin: 0;
+        }
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .timer-yoga {
+        display: none;
+      }
+    }
+  }
+
+  .best-new {
+    .shape-bg {
+      gap: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-left: 0px;
+
+      .text-best-new {
+        flex: 1;
+
+        h1 {
+          font-size: 24px;
+          margin: 0px;
+        }
+        p {
+          font-size: 14px;
+          margin: 0;
+          hyphens: auto;
+        }
+
+        button {
+          width: 140px;
+          height: 20px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .pricing {
+    padding: 0px;
+    .pricing-prize-border {
+      width: 320px;
+      .text-pricing {
+        padding: 20px;
+        h1 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 16px;
+          hyphens: auto;
+        }
+      }
+      .prizes-container {
+        display: none;
+      }
+    }
+  }
+
+  .leona-woods {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #464159;
+      mix-blend-mode: multiply;
+    }
+
+    .text-our-stats {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-35%, -50%);
+      text-align: left;
+
+      h4 {
+        font-size: 20px;
+        color: #ffffff;
+        text-align: left;
+        margin: auto 0;
+      }
+
+      p {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .our-update {
+    .container-about-us {
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        width: 320px;
+        font-size: 14px;
+        margin: 0px auto;
+        hyphens: auto;
+      }
+      input {
+        width: 120px;
+        height: 20px;
+        padding: 5px;
+        margin: 0;
+        border: 0;
+        font-size: 16px;
+      }
+
+      button {
+        font-size: 16px;
+        width: 30;
+        height: 32px;
+        padding: 10px;
+        margin: 0;
+        border: 0;
+      }
+    }
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+
+    .footer-yogaku {
+      width: 100%;
+      h4 {
+        font-size: 20px;
+        text-align: center;
+      }
+      p {
+        font-size: 16px;
+        padding: 0;
+      }
+    }
+
+    .list-infor {
+      flex-direction: column;
+      gap: 20px;
+
+      ul {
+        h4 {
+          margin-bottom: 5px;
+        }
+        a {
+          font-size: 18px;
+        }
+      }
+
+      .list-follow {
+        div {
+          .icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            margin-right: 5px;
+          }
+          a {
+            font-size: 20px;
+          }
+          span {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
