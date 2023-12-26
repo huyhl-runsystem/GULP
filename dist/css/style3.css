@@ -1,0 +1,206 @@
+@media screen and (max-width: 760px) {
+  .home-container .container-header-menu {
+    width: 320px;
+  }
+  .home-container .container-header-menu .menu-header {
+    display: none;
+  }
+  .home-container .container-header-menu .text-title {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .home-container .container-header-menu .text-title h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .home-container .container-header-menu .text-title p {
+    width: 320px;
+    font-size: 16px;
+    margin: 10px auto;
+  }
+  .home-container .container-header-menu .text-title button {
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .home-container .container-header-menu .text-title .dots-container {
+    display: none;
+  }
+  .our-stats {
+    padding: auto 20px;
+  }
+  .our-stats .container-our-stats .text-our-stats {
+    width: 320px;
+    margin: 20px auto;
+  }
+  .our-stats .container-our-stats .text-our-stats h1 {
+    font-size: 24px;
+    margin: 10px;
+  }
+  .our-stats .container-our-stats .text-our-stats p {
+    width: 320px;
+    font-size: 16px;
+  }
+  .our-stats .container-our-stats .container-info {
+    display: none;
+  }
+  .about-us .container-about-us {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .about-us .container-about-us .text-about-us {
+    width: 320px;
+    margin: 10px auto;
+  }
+  .about-us .container-about-us .text-about-us h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .about-us .container-about-us .text-about-us p {
+    font-size: 16px;
+  }
+  .about-us .container-about-us .timer-yoga {
+    display: none;
+  }
+  .best-new .shape-bg {
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 0px;
+  }
+  .best-new .shape-bg .text-best-new {
+    flex: 1;
+  }
+  .best-new .shape-bg .text-best-new h1 {
+    font-size: 24px;
+    margin: 0px;
+  }
+  .best-new .shape-bg .text-best-new p {
+    font-size: 14px;
+    margin: 0;
+    hyphens: auto;
+  }
+  .best-new .shape-bg .text-best-new button {
+    width: 140px;
+    height: 20px;
+    font-size: 16px;
+  }
+  .pricing {
+    padding: 0px;
+  }
+  .pricing .pricing-prize-border {
+    width: 320px;
+  }
+  .pricing .pricing-prize-border .text-pricing {
+    padding: 20px;
+  }
+  .pricing .pricing-prize-border .text-pricing h1 {
+    font-size: 24px;
+  }
+  .pricing .pricing-prize-border .text-pricing p {
+    font-size: 16px;
+    hyphens: auto;
+  }
+  .pricing .pricing-prize-border .prizes-container {
+    display: none;
+  }
+  .leona-woods {
+    position: relative;
+  }
+  .leona-woods img {
+    width: 100%;
+  }
+  .leona-woods .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #464159;
+    mix-blend-mode: multiply;
+  }
+  .leona-woods .text-our-stats {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-35%, -50%);
+    text-align: left;
+  }
+  .leona-woods .text-our-stats h4 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    margin: auto 0;
+  }
+  .leona-woods .text-our-stats p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  .our-update .container-about-us h1 {
+    font-size: 20px;
+  }
+  .our-update .container-about-us p {
+    width: 320px;
+    font-size: 14px;
+    margin: 0px auto;
+    hyphens: auto;
+  }
+  .our-update .container-about-us input {
+    width: 120px;
+    height: 20px;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+    font-size: 16px;
+  }
+  .our-update .container-about-us button {
+    font-size: 16px;
+    width: 30;
+    height: 32px;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+  }
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer .footer-yogaku {
+    width: 100%;
+  }
+  .footer .footer-yogaku h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .footer .footer-yogaku p {
+    font-size: 16px;
+    padding: 0;
+  }
+  .footer .list-infor {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer .list-infor ul h4 {
+    margin-bottom: 5px;
+  }
+  .footer .list-infor ul a {
+    font-size: 18px;
+  }
+  .footer .list-infor .list-follow div .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  .footer .list-infor .list-follow div a {
+    font-size: 20px;
+  }
+  .footer .list-infor .list-follow div span {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,514 @@
+@charset "UTF-8";
+@media screen and (max-width: 2560px) {
+  h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #464159;
+    font-weight: 800;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  h2 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #464159;
+    font-weight: 800;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  h3 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  h4 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #464159;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 40px;
+  }
+  a {
+    font-size: 28px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+  }
+  body {
+    margin: 0;
+    color: #464159;
+    font-family: "Montserrat", sans-serif;
+  }
+  .home-container .image-container {
+    position: relative;
+    overflow: hidden;
+    display: none;
+  }
+  .home-container .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .home-container .image-container:before {
+    content: ""; /* Tạo một pseudo-element để làm background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c7f0db;
+    mix-blend-mode: multiply;
+  }
+  .home-container .container-header-menu {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .home-container .container-header-menu .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+  }
+  .home-container .container-header-menu .menu-header .nav-header {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  .home-container .container-header-menu .menu-header .nav-header li {
+    margin-right: 40px;
+  }
+  .home-container .container-header-menu .menu-header .nav-header li a {
+    text-decoration: none;
+    color: #464159;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .home-container .container-header-menu .text-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    margin: 0 auto;
+  }
+  .home-container .container-header-menu .text-title h1 {
+    margin-bottom: 20px;
+  }
+  .home-container .container-header-menu .text-title p {
+    width: 950px;
+    font-size: 28px;
+    color: #464159;
+    font-weight: 400;
+    margin-bottom: 110px;
+    text-align: center;
+  }
+  .home-container .container-header-menu .text-title button {
+    width: 400px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: #464159;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 150px;
+  }
+  .home-container .container-header-menu .text-title .dots-container {
+    display: flex;
+    justify-content: center;
+  }
+  .home-container .container-header-menu .text-title .dot {
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .home-container .container-header-menu .text-title .dot.active {
+    background-color: #464159;
+  }
+  .our-stats {
+    background-color: #464159;
+    position: relative;
+  }
+  .our-stats img {
+    width: 100%;
+  }
+  .our-stats:before {
+    content: ""; /* Tạo một pseudo-element để làm background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #464159;
+    mix-blend-mode: multiply;
+  }
+  .our-stats .container-our-stats {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .our-stats .container-our-stats .text-our-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    margin: 220px auto;
+  }
+  .our-stats .container-our-stats .text-our-stats h1 {
+    color: #ffffff;
+    margin: 30px;
+  }
+  .our-stats .container-our-stats .text-our-stats p {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+  }
+  .our-stats .container-our-stats .container-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+  }
+  .our-stats .container-our-stats .container-info h3 {
+    margin: 30px;
+  }
+  .our-stats .container-our-stats .container-info p {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+  }
+  .about-us {
+    position: relative;
+  }
+  .about-us img {
+    width: 100%;
+    display: block;
+  }
+  .about-us .container-about-us {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about-us .container-about-us .text-about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    margin: 100px auto;
+  }
+  .about-us .container-about-us .text-about-us h1 {
+    margin: 0;
+  }
+  .about-us .container-about-us .text-about-us p {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .about-us .container-about-us .timer-yoga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    width: 1440px;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container {
+    background-color: #ffffff;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container p {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .best-new {
+    position: relative;
+    padding: 0px;
+  }
+  .best-new img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .best-new .shape-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 120px;
+    padding: 100px;
+    box-sizing: border-box;
+    margin-left: 60px;
+  }
+  .best-new .shape-bg .text-best-new {
+    flex: 1;
+  }
+  .best-new .shape-bg .text-best-new h1 {
+    margin-top: 100px;
+    color: #464159;
+    text-align: left;
+  }
+  .best-new .shape-bg .text-best-new p {
+    font-size: 32px;
+    color: #464159;
+    margin-bottom: 110px;
+  }
+  .best-new .shape-bg .text-best-new button {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #464159;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .best-new .shape-bg .image-best-new {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+  .best-new .shape-bg .image-best-new img {
+    width: auto;
+    height: 100%;
+  }
+  .pricing {
+    background-color: #c7f0db;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pricing .pricing-prize-border {
+    width: 1280px;
+  }
+  .pricing .pricing-prize-border .text-pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .pricing .pricing-prize-border .text-pricing p {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .pricing .pricing-prize-border .prizes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 100px auto;
+  }
+  .pricing .pricing-prize-border .prizes-container .prize {
+    display: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .pricing .pricing-prize-border .prizes-container .prize h4 {
+    margin: 20px;
+  }
+  .pricing .pricing-prize-border .prizes-container .prize p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .pricing .pricing-prize-border .prizes-container .prize button {
+    width: 322px;
+    height: 65px;
+    border-radius: 4px;
+    background-color: #464159;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+  }
+  .leona-woods {
+    position: relative;
+  }
+  .leona-woods img {
+    width: 100%;
+  }
+  .leona-woods .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #464159;
+    mix-blend-mode: multiply;
+  }
+  .leona-woods .text-our-stats {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 48%;
+    left: 55%;
+    transform: translate(-100%, -100%);
+    text-align: left;
+  }
+  .leona-woods .text-our-stats h4 {
+    font-size: 44px;
+    color: #ffffff;
+    text-align: left;
+    margin: auto 0;
+  }
+  .leona-woods .text-our-stats p {
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 400;
+  }
+  .our-update {
+    position: relative;
+  }
+  .our-update img {
+    width: 100%;
+    display: block;
+  }
+  .our-update .container-about-us {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .our-update .container-about-us h1 {
+    margin: 0;
+  }
+  .our-update .container-about-us p {
+    font-size: 40px;
+    width: 1280px;
+    margin: 60px auto;
+  }
+  .our-update .subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 1280px;
+  }
+  .our-update .subscribe-container input {
+    background-color: #ffffff;
+    width: 700px;
+    height: 62px;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    font-size: 36px;
+  }
+  .our-update .subscribe-container button {
+    background-color: #464159;
+    color: #ffffff;
+    font-size: 32px;
+    text-transform: uppercase;
+    width: auto;
+    height: 102px;
+    padding: 20px 40px;
+    margin: 0;
+    border: 0;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #464159;
+    color: white;
+    padding: 200px 100px;
+  }
+  .footer .footer-yogaku {
+    text-align: justify;
+    width: 720px;
+  }
+  .footer .footer-yogaku h4 {
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+  .footer .footer-yogaku p {
+    font-size: 28px;
+    hyphens: auto;
+  }
+  .footer .list-infor {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .footer .list-infor ul {
+    list-style: none;
+    margin: 0;
+  }
+  .footer .list-infor ul li {
+    margin-bottom: 10px;
+  }
+  .footer .list-infor ul h4 {
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .footer .list-infor ul a {
+    text-decoration: none;
+  }
+  .footer .list-infor .list-follow div .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .footer .list-infor .list-follow div a {
+    font-size: 20px;
+    color: #464159;
+  }
+  .footer .list-infor .list-follow div span {
+    font-size: 28px;
+    color: #ffffff;
+  }
+}

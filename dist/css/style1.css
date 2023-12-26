@@ -1,0 +1,302 @@
+@media screen and (max-width: 1680px) {
+  .about-us {
+    position: relative;
+  }
+  .about-us img {
+    width: 100%;
+    display: block;
+  }
+  .about-us .container-about-us {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  .about-us .container-about-us .text-about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1024px;
+    margin: 50px auto;
+  }
+  .about-us .container-about-us .text-about-us h1 {
+    margin: 0;
+  }
+  .about-us .container-about-us .text-about-us p {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .about-us .container-about-us .timer-yoga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    width: 1540px;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container {
+    background-color: #ffffff;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container p {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #464159;
+    color: white;
+    padding: 100px auto;
+  }
+  .footer .footer-yogaku {
+    text-align: justify;
+    width: 680px;
+  }
+  .footer .footer-yogaku h4 {
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+  .footer .footer-yogaku p {
+    font-size: 26px;
+    hyphens: auto;
+  }
+  .footer .list-infor {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .footer .list-infor ul {
+    list-style: none;
+    margin: 0;
+  }
+  .footer .list-infor ul li {
+    margin-bottom: 10px;
+  }
+  .footer .list-infor ul h4 {
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .footer .list-infor ul a {
+    font-size: 22px;
+    text-decoration: none;
+  }
+  .footer .list-infor .list-follow div .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  .footer .list-infor .list-follow div a {
+    font-size: 22px;
+    color: #464159;
+  }
+  .footer .list-infor .list-follow div span {
+    font-size: 22px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .home-container .container-header-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .home-container .container-header-menu .menu-header {
+    width: 1280px;
+  }
+  .home-container .container-header-menu .text-title {
+    width: 900px;
+    margin: 0 auto;
+  }
+  .home-container .container-header-menu .text-title h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  .home-container .container-header-menu .text-title button {
+    width: 322px;
+    height: 65px;
+    margin-bottom: 120px;
+  }
+  .our-stats .container-our-stats .text-our-stats {
+    width: 1024px;
+    margin: 100px auto;
+  }
+  .our-stats .container-our-stats .text-our-stats h1 {
+    font-size: 80px;
+    margin: 30px;
+  }
+  .our-stats .container-our-stats .text-our-stats p {
+    font-size: 30px;
+  }
+  .our-stats .container-our-stats .container-info {
+    width: 1024px;
+  }
+  .our-stats .container-our-stats .container-info h3 {
+    font-size: 60px;
+  }
+  .about-us .container-about-us .text-about-us {
+    width: 1024px;
+    margin: 100px auto;
+  }
+  .about-us .container-about-us .text-about-us h1 {
+    font-size: 80px;
+    margin: 0;
+  }
+  .about-us .container-about-us .text-about-us p {
+    font-size: 30px;
+  }
+  .about-us .container-about-us .timer-yoga {
+    width: 1024px;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container {
+    background-color: #ffffff;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container h4 {
+    font-size: 24px;
+    margin: 20px;
+  }
+  .about-us .container-about-us .timer-yoga .schedule-yoga .text-container p {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .best-new .shape-bg {
+    gap: 120px;
+    padding: 100px;
+    box-sizing: border-box;
+    margin-left: 60px;
+  }
+  .best-new .shape-bg .text-best-new {
+    flex: 1;
+  }
+  .best-new .shape-bg .text-best-new h1 {
+    font-size: 80px;
+    margin-top: 60px;
+  }
+  .best-new .shape-bg .text-best-new p {
+    font-size: 28px;
+    margin-bottom: 60px;
+    hyphens: auto;
+  }
+  .best-new .shape-bg .text-best-new button {
+    width: 322px;
+    height: 65px;
+    font-size: 30px;
+  }
+  .pricing .pricing-prize-border .text-pricing h1 {
+    font-size: 80px;
+  }
+  .pricing .pricing-prize-border .text-pricing p {
+    hyphens: auto;
+  }
+  .pricing .pricing-prize-border .prizes-container {
+    width: auto;
+    gap: 40px;
+  }
+  .leona-woods .text-our-stats p {
+    font-size: 36px;
+  }
+  .leona-woods .text-our-stats h4 {
+    font-size: 40px;
+  }
+  .our-update .container-about-us h1 {
+    font-size: 80px;
+  }
+  .our-update .container-about-us p {
+    width: 1024px;
+    font-size: 36px;
+  }
+  .our-update .container-about-us input {
+    width: 549px;
+    height: 42px;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    font-size: 36px;
+  }
+  .our-update .container-about-us button {
+    font-size: 32px;
+    width: auto;
+    height: 82px;
+    padding: 20px 40px;
+    margin: 0;
+    border: 0;
+  }
+  .footer {
+    padding: 150px 50px;
+  }
+  .footer .footer-yogaku {
+    text-align: justify;
+  }
+  .footer .footer-yogaku h4 {
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+  .footer .footer-yogaku p {
+    font-size: 25px;
+    hyphens: auto;
+    padding-right: 60px;
+  }
+  .footer .list-infor {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .footer .list-infor ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .list-infor ul li {
+    margin-bottom: 0px;
+  }
+  .footer .list-infor ul h4 {
+    color: white;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .footer .list-infor ul a {
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0px;
+  }
+  .footer .list-infor .list-follow div .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .footer .list-infor .list-follow div a {
+    font-size: 24px;
+    color: #464159;
+  }
+  .footer .list-infor .list-follow div span {
+    font-size: 22px;
+    color: #ffffff;
+  }
+}
